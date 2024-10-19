@@ -1,0 +1,19 @@
+.upperStrip {
+    height: 32px;
+    background-color: #233B77;
+    color: white;
+}
+
+.navbar-cutom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.custom-loggo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-nav-links .navLink-custom {
+    color: #233B77!important;
+}

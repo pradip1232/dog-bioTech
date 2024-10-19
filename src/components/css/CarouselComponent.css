@@ -1,0 +1,47 @@
+/* CarouselComponent.css */
+
+/* Carousel Container */
+.carousel-item {
+    height: 100vh;
+    position: relative;
+}
+
+/* Background Image Styling with Linear Gradient */
+
+
+/* Caption Styling */
+.carousel-caption {
+    text-align: start;
+    left: 10%;
+}
+
+.carousel-caption h2 {
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Horizontal Rule */
+.carousel-caption hr {
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+}
+
+/* Customize Carousel Indicators */
+.carousel-indicators [data-bs-target] {
+    width: 12px!important;
+    height: 12px!important;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+    /* Adjust indicator position */
+}
