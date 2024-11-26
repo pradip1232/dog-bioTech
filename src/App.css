@@ -14,3 +14,46 @@ body {
 .carousel-caption p {
   font-size: 1.2rem;
 }
+
+
+
+.slick-slide {
+  padding: 0 5px;
+  /* Adds 5px padding on both sides for a total 10px gap */
+}
+
+.slick-list {
+  margin: 0 -5px;
+  /* Compensates for the padding on the edges */
+}
+
+.product-card {
+  padding: 15px;
+  border: none;
+  background-color: #fff;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+.product-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2a67;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+}

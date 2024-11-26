@@ -1,0 +1,65 @@
+/* Example of card styles */
+.card {
+    margin: 15px;
+    border: none;
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    color: #000;
+    /* Change the dots color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

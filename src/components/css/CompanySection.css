@@ -1,0 +1,57 @@
+.company-section {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .company-header {
+    position: relative;
+    text-align: center;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  
+  .header-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .header-overlay h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .header-overlay p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .info-card {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .info-card i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    .header-overlay h2 {
+      font-size: 1.5rem;
+    }
+    .header-overlay p {
+      font-size: 0.9rem;
+    }
+  }
+  

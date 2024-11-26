@@ -1,0 +1,71 @@
+/* Footer Styles */
+.footer {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.newsletter-title {
+    color: #0c3c84;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.newsletter input {
+    min-width: 200px;
+    flex: 1;
+}
+
+.logo-img {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.newsletter-section h5 {
+    color: white;
+}
+
+.newsletter-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #0c3c84;
+
+}
+
+.footer-img-colmn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info p,
+.info ul {
+    margin: 5px 0;
+}
+
+.info ul {
+    padding-left: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .newsletter {
+        text-align: center;
+    }
+
+    .newsletter form {
+        justify-content: center;
+    }
+
+    .logo-img {
+        margin: 15px auto;
+    }
+
+    .info {
+        text-align: center;
+    }
+}

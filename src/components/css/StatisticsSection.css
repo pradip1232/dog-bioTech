@@ -1,0 +1,39 @@
+.statistics-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-image {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.stat-body {
+    background-color: #1a2a67;
+    color: white;
+    padding: 15px;
+}
+
+.stat-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.stat-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: bold;
+}

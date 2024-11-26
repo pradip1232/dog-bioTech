@@ -1,0 +1,46 @@
+.veterinarians-section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.division-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.division-image {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    /* Adjust as needed */
+    width: 100%;
+}
+
+.division-content {
+    padding: 1rem;
+}
+
+.division-content h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.division-content p {
+    color: #6c757d;
+    font-size: 0.875rem;
+}

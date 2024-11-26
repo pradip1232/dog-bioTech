@@ -1,5 +1,5 @@
 import { Carousel } from 'react-bootstrap';
-import dog from '../img/dog.jpg'; // Replace with your actual image path
+import dog from '../img/homepage (2).webp'; // Replace with your actual image path
 import '../css/CarouselComponent.css'; // Import the CSS
 
 function CarouselComponent() {

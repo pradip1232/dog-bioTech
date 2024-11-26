@@ -1,0 +1,57 @@
+.about-us-section {
+    background: url('../img/HOMEPAGE/webp/scientffic bg 1.webp') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    /* color: #fff; */
+
+
+   
+    opacity: 0.6px;
+
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #e0e0e0;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .info-card {
+        padding: 20px;
+    }
+}

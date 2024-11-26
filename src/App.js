@@ -7,6 +7,7 @@ import Blogs from './pages/Blogs';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
 import Research from './pages/Research';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/research" element={<Research />} />
       </Routes>
+      <Footer  />
     </Router>
   );
 }

@@ -1,0 +1,50 @@
+/* Main container for the section */
+.info-section {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  /* Background image container */
+  .background-image {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  
+  .bg-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Circle for the icon */
+  .icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #1d3c6d; /* Customize the color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: white;
+  }
+  
+  /* Card text styles */
+  .info-text {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .info-text {
+      font-size: 14px;
+    }
+  }
+  
