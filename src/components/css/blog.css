@@ -1,0 +1,203 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+
+
+
+
+
+
+
+.section-blogs-hero-container img {
+    position: relative;
+    text-align: center;
+}
+
+
+.blog-section-hero-imagesText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blog-section-hero-imagesText h2 {
+    color: white;
+    font-weight: 700;
+}
+
+.hr-blog-hero {
+    width: 500px;
+    max-width: 500px;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    max-width: 1200px;
+    margin: auto;
+} */
+
+.card-container {
+    padding: 10px;
+}
+
+/* .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+} */
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    /* text-align: center; */
+}
+
+.card-title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 2;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.number-section-blog-pages {
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.number-section-blog-pages {
+    position: relative;
+    background-image: url("../img/BLOG PAGE/blog\ img\ 1.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.number-section-blog-pages .number-container-slider {
+    position: relative;
+    z-index: 2;
+}
+
+.number-section-blog-pages:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #003781;
+    opacity: 00.5;
+    z-index: 1;
+}
+
+.step-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.step-card {
+    /* background: #013c7d; */
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.step-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Horizontal Line Styling */
+.step-line {
+    position: absolute;
+    width: 74%;
+    height: 2px;
+    /* background-color: black; */
+    border-top: 2px dashed black;
+    /* Dotted line with desired color and thickness */
+
+    top: 21%;
+    left: calc(-43% + 10px);
+    transform: translateY(-50%);
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 2;
+    color: black;
+}
+
+.slick-dots li button:before {
+    /* color: white; */
+}

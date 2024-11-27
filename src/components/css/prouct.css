@@ -1,0 +1,196 @@
+/* General Section Styles */
+.our-product-section-cont {
+    position: relative;
+}
+
+.our-product-images {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.our-product-section-cont-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    /* Ensure text is readable */
+}
+
+.our-product-section-cont-text h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.our-product-hr {
+    max-width: 80%;
+    width: 500px;
+    border: 1px solid #fff;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.our-product-section-text-row {
+    margin-top: 23rem;
+}
+
+.our-product-section-cont {
+    padding-bottom: 10rem;
+}
+
+/* Cards Section */
+.our-product-section-cards {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 15px; */
+    /* Adds space between cards */
+}
+
+.our-product-section-cards .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    background-color: transparent;
+    /* No background color */
+    /* width: 18rem; */
+    /* Adjust card width */
+    height: auto;
+    border: none;
+    /* Let height adjust dynamically */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* Optional shadow */
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    object-fit: cover;
+    /* Ensure the image fills without distortion */
+    width: 100%;
+    height: 200px;
+    /* Fixed image height for uniformity */
+}
+
+.product-card button {
+    background-color: #007bff;
+    /* Example primary button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+/* Card Titles */
+.product-card h5 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: white;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* product category section */
+
+.product-filter-page .category-buttons button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.product-filter-page .search-bar input {
+    border-radius: 20px;
+}
+
+.product-card-filter {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card-filter:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-filter img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    .our-product-section-cards {
+        margin-top: 2rem;
+    }
+
+    .product-card {
+        max-width: 90%;
+        /* Reduce card size for smaller screens */
+    }
+
+    .our-product-section-cont-text h2 {
+        font-size: 1.5rem;
+        /* Adjust title size */
+    }
+
+    .our-product-hr {
+        width: 50%;
+        /* Adjust HR width */
+    }
+}
+
+@media (max-width: 576px) {
+    .our-product-section-cont-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .product-card img {
+        height: 150px;
+        /* Adjust image height for smaller screens */
+    }
+
+    .product-card h5 {
+        font-size: 0.9rem;
+        /* Reduce title font size */
+    }
+
+    .product-card button {
+        font-size: 0.8rem;
+        /* Adjust button size */
+    }
+}

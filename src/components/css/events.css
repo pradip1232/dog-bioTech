@@ -1,0 +1,10 @@
+.events-section-container img {
+    position: relative;
+}
+
+.events-section-container .text-hero--events {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

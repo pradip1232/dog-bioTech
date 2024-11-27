@@ -15,12 +15,12 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/company" element={<Company />} />
+        <Route path="/our-company" element={<Company />} />
         <Route path="/products" element={<Products />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/research" element={<Research />} />
+        <Route path="/research-and-innovation" element={<Research />} />
       </Routes>
       <Footer  />
     </Router>

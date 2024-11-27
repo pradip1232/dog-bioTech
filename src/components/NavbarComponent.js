@@ -1,9 +1,14 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap'; // Helps with React Router Links
 import './css/navbar.css';
+import logo from './img/homepage (38).webp';
+import { Helmet } from 'react-helmet';
 function NavbarComponent() {
     return (
         <>
+        <Helmet>
+            <link rel='icon' href={logo} type='image/webp' />
+        </Helmet>
             {/* Upper Info Strip */}
             <div
                 className="container-fluid upperStrip d-flex align-items-center"
@@ -59,7 +64,7 @@ function NavbarComponent() {
                     {/* Brand Logo */}
                     <Navbar.Brand href="/">
                         <img
-                            src="https://via.placeholder.com/50" // Replace with actual logo path
+                            src={logo} // Replace with actual logo path
                             alt="Panav Biotech Logo"
                             className="d-inline-block align-top custom-loggo"
                            
@@ -73,7 +78,7 @@ function NavbarComponent() {
                             <LinkContainer to="/">
                                 <Nav.Link className='navLink-custom'>Home</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/company">
+                            <LinkContainer to="/our-company">
                                 <Nav.Link className='navLink-custom'>Our Company</Nav.Link>
                             </LinkContainer>
                             <LinkContainer to="/products">
@@ -88,7 +93,7 @@ function NavbarComponent() {
                             <LinkContainer to="/contact">
                                 <Nav.Link className='navLink-custom'>Contact Us</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/research">
+                            <LinkContainer to="/research-and-innovation">
                                 <Nav.Link className='navLink-custom'>Research & Innovation</Nav.Link>
                             </LinkContainer>
                         </Nav>

@@ -1,7 +1,7 @@
 /* Example of card styles */
 .card {
-    margin: 15px;
-    border: none;
+    /* margin: 15px; */
+    /* border: none; */
 }
 
 .card img {
@@ -11,7 +11,7 @@
 }
 
 .card-body {
-    text-align: center;
+    /* text-a/lign: center; */
 }
 
 .slick-dots li button:before {
